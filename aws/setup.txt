@@ -6,3 +6,8 @@ you also need to set icmp to all port numbers and upd to 9999 in the ec2 securit
 after that just run the python file
 command to run 
 python3 udp_ping_server.py
+
+
+you need to run a command in a different aws terminal 
+run command 
+sudo tcpdump -i enX0 udp port 9999
