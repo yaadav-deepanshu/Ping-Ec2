@@ -2,3 +2,7 @@ aws setup
 
 things to configure 
 you have to install python3 in the ec2 instance 
+you also need to set icmp to all port numbers and upd to 9999 in the ec2 security group
+after that just run the python file
+command to run 
+python3 udp_ping_server.py
