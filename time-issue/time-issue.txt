@@ -1,3 +1,13 @@
 if you are facing issue with the time then you have to configure your time zone into the ec2 instance 
 or
 if you want you can create the ec2 instance into your availability zone
+
+for changing the your timezone 
+commands
+date --- to see the current time 
+timedatectl list-timezones | grep -i your-country
+timedatectl list-timezones | grep -i Asia/Kolkata
+sudo timedatectl set-timezone Your/Timezone
+sudo timedatectl set-timezone Asia/Kolkata ---for India
+date ---change the timezone is changed 
+
