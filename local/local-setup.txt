@@ -1,4 +1,8 @@
+use WSL for easy configuration 
 things to configure in the local machine 
 again make sure that the python3 is installed in your machine 
 
 run the udp_ping_client.py file
+
+commands to run 
+python3 udp_ping_client.py
