@@ -1,0 +1,4 @@
+aws setup
+
+things to configure 
+you have to install python3 in the ec2 instance 
