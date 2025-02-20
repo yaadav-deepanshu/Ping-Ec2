@@ -1,1 +1,2 @@
 it is the sample file as the local but just with the 1 minute delay in the ping time 
+use this file if you need 1 minute delay betwwen the ping time 
